@@ -1,0 +1,1 @@
+The LZW algorithm functions by creating a dictionary of substrings that are found in the data being compressed. It encodes the data as output indices of this dictionary. While encoding data with the LZW algorithm, a dictionary is progressively built so that it always begins with initial substrings. Letters, in case of textual data, are stored individually.

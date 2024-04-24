@@ -13,6 +13,13 @@ jobs:
           TestsCount: 3
           ProgramName: task
         steps:
+            - name: check tests count
+              run: |
+                case ${{ github.ref_name }} in
+                "task7" | "task9"| "task10")
+                  echo "TestsCount=6" >> $GITHUB_ENV
+                  ;;
+                esac
             - name: copy files
               uses: actions/checkout@v4
             - name: install

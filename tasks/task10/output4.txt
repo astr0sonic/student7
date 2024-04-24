@@ -1,0 +1,1 @@
+An LZW encoding is a stream of codes, each code emitting zero or more bytes. There are four types of codes: literals, copies, clear and end.
