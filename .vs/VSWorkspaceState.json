@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\tasks",
+    "\\tasks\\task7"
   ],
-  "SelectedNode": "\\calculator.cpp",
+  "SelectedNode": "\\tasks\\task7\\input1.txt",
   "PreviewInSolutionExplorer": false
 }
