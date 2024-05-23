@@ -59,3 +59,6 @@ string testDecode(const string& inputFileName, const string& outputFileName) {
     string decoded = decode(text, codes);
     return decoded;
 }
+
+
+
