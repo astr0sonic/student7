@@ -1,1 +1,3 @@
 /.vs/student7
+echo "student7/" >> .gitignore
+echo "student7 (2)/" >> .gitignore
