@@ -43,7 +43,7 @@ std::string decompress(const std::vector<int>& compressed) {
         dict[i] = std::string(1, char(i));
     }
 
-    for (int i = 1; i < compressed.size(); i++)
+    for (int i = 0; i < compressed.size(); i++)
     {
         std::string currentStr;
 
